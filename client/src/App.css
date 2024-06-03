@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /* height: 40vmin; */
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.input-container {
+  margin-top: 20px !important;
+}
+.App-header input {
+  background-color: #282c34;
+  outline: none;
+  border: 1px solid rgb(84, 78, 79);
+  height: 50px;
+  width: 300px;
+  color: white;
+  margin: 0 auto;
+  font-size: 15px !important;
+  border-top-left-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+}
+.App-header input:focus {
+  background-color: #0a101c;
+  outline: none;
+  border: 1px solid rgb(84, 78, 79);
+  height: 50px;
+  width: 300px;
+  color: white;
+  margin: 0 auto;
+  font-size: 15px !important;
+}
+
+.App-header button {
+  background-color: #0f2550;
+  outline: none;
+  border: 1px solid rgb(84, 78, 79);
+  height: 53px;
+  width: 100px;
+  color: white;
+  margin: 0 auto;
+  border-top-right-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+}
+.App-header button:hover {
+  background-color: #053b6b !important;
+}
+
+.headerTitel {
+  background: -webkit-linear-gradient(0deg, #ac7300 0%, #48abe0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.error {
+  font-size: 19px;
+  height: 40px;
+  width: 300px;
+  border: 1px solid red;
+  background: rgb(240, 170, 170);
+  color: rgb(79, 7, 7);
+  padding-top: 15px;
+}
+.received-message {
+  border: 1px solid gray;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 30px !important;
+}
+.messageRecived {
+  font-size: 17px;
+  font-family: Arial, sans-serif;
+  margin-left: 7px;
+}
+.success {
+  font-size: 19px;
+  height: 40px;
+  width: 300px;
+  border: 1px solid green;
+  background: rgb(64, 255, 99);
+  color: rgb(18, 79, 7);
+  padding-top: 15px;
+}
+
+.footer {
+  background: -webkit-linear-gradient(0deg, #875a00 0%, #350080 100%);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.footer a:hover {
+  color: #48abe0;
+}
